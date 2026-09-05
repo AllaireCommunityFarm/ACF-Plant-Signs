@@ -1,0 +1,36 @@
+
+:root{--ink:#2f2a24;--green:#3d5c3a;--red:#9c3b2e;--paper:#faf6ee;--rule:#d8cdb8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:17px/1.6 Georgia,'Iowan Old Style',serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:640px;margin:0 auto;padding:28px 22px 64px}
+header{text-align:center;border-bottom:2px solid var(--rule);padding-bottom:18px;margin-bottom:26px}
+.mark{font:600 13px/1 -apple-system,Segoe UI,sans-serif;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--green)}
+.tag{font-style:italic;color:#6d6455;font-size:14px;margin-top:6px}
+h1{font-size:31px;line-height:1.15;margin:0 0 4px}
+.sci{font-style:italic;color:#6d6455;margin:0 0 2px}
+.fam{font:600 12px/1 -apple-system,Segoe UI,sans-serif;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--red);margin:10px 0 0}
+.facts{list-style:none;padding:0;margin:24px 0;border-top:1px solid var(--rule)}
+.facts li{display:flex;gap:14px;padding:11px 2px;border-bottom:1px solid var(--rule)}
+.facts b{flex:0 0 34%;font:600 12px/1.5 -apple-system,Segoe UI,sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--green)}
+.facts span{flex:1}
+h2{font:600 12px/1 -apple-system,Segoe UI,sans-serif;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--green);margin:30px 0 10px}
+footer{margin-top:44px;padding-top:18px;border-top:2px solid var(--rule);
+  text-align:center;font-size:14px;color:#6d6455}
+footer a{color:var(--green)}
+.num{font:600 12px/1 -apple-system,Segoe UI,sans-serif;letter-spacing:.12em;
+  color:#a89c86;text-transform:uppercase}
+.soon{background:#fff;border:1px solid var(--rule);border-radius:4px;
+  padding:26px 22px;text-align:center;margin:30px 0}
+.soon p{margin:0 0 6px;font-size:16px}
+.soon .small{font-size:14px;color:#6d6455;margin:0}
+.list{list-style:none;padding:0;margin:0}
+.list li{border-bottom:1px solid var(--rule)}
+.list a{display:flex;gap:12px;padding:14px 2px;text-decoration:none;color:var(--ink)}
+.list .n{flex:0 0 34px;font:600 13px/1.6 -apple-system,Segoe UI,sans-serif;color:#a89c86}
+.list .pending{color:#a89c86;font-style:italic}
